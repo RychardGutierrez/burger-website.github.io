@@ -34,7 +34,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-  background: url("../images/background3.jpg");
+  background: url("../images/background.jpg");
   background-attachment: fixed;
   background-position: center;
   background-color: #3b3b46;

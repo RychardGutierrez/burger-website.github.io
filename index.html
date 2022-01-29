@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BurgerKai Website</title>
+    <!-- font awesome can link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- head section start -->
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars icons"></div>
+      <div id="search-btn" class="fas fa-search icons"></div>
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <span class="space"></span>
+        <a href="#reviews">Reviews</a>
+        <a href="#contacts">Contacts</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+      <a href="#" class="fas fa-shopping-cart icons"></a>
+      <a href="#home" class="logo">
+        <img src="images/logo.png" alt="logo BurgerKai" />
+        <span>KAI</span>
+      </a>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name="search"
+          placeholder="Seach here..."
+          id="search-box"
+          autocomplete="off"
+        />
+        <label for="search-box" class="fas fa-search icons"></label>
+      </form>
+    </header>
+    <!-- head section ends -->
+
+    <!-- home sections starts -->
+    <section class="home" id="home">
+      <div class="content">
+        <img
+          data-aos="fade-up"
+          data-aos-delay="150"
+          src="images/burger-baner.png"
+          alt="burger banner"
+        />
+        <h3 data-aos="fade-up" data-aos-delay="300">So meaty you will crazy</h3>
+        <p data-aos="fade-up" data-aos-delay="450">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
+          dolorem vel quisquam temporibus voluptas voluptatem sequi eligendi
+          modi magnam, enim corrupti officiis. Error cum corrupti illo totam
+          dolore a sequi?
+        </p>
+        <a data-aos="fade-up" data-aos-delay="600" href="#menu" class="btn"
+          >Our menu</a
+        >
+      </div>
+    </section>
+    <!-- home sections ends -->
+
+    <!-- service section starts -->
+    <section class="service">
+      <div class="box">
+        <i class="fas fa-hamburger"></i>
+        <h3>Best quality</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+          exercitationem minus et veritatis cum illo quibusdam alias numquam
+          quos voluptatibus esse earum, repudiandae porro natus ipsum nobis
+          consequatur labore aliquam.
+        </p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-shipping-fast"></i>
+        <h3>Free delivery</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+          exercitationem minus et veritatis cum illo quibusdam alias numquam
+          quos voluptatibus esse earum, repudiandae porro natus ipsum nobis
+          consequatur labore aliquam.
+        </p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-headset"></i>
+        <h3>24/7 support</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis
+          exercitationem minus et veritatis cum illo quibusdam alias numquam
+          quos voluptatibus esse earum, repudiandae porro natus ipsum nobis
+          consequatur labore aliquam.
+        </p>
+      </div>
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- menu section starts -->
+    <section class="menu" id="menu">
+      <div class="heading">
+        <img src="images/title-img.png" alt="menu title" />
+        <h3>Our menu</h3>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/product-1.png" alt="burger basic" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cheese and beef hamburger</h3>
+            <div class="price">$29.99</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/product-2.png" alt="burger intermediun" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Tosino and egg hamburger</h3>
+            <div class="price">$29.99</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/product-3.png" alt="burger intermediun" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Chicken hamburger</h3>
+            <div class="price">$29.99</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/product-4.png" alt="burger intermediun" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Cheese and double beef hamburger</h3>
+            <div class="price">$29.99</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/product-5.png" alt="burger intermediun" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Chicken and cheese hamburger</h3>
+            <div class="price">$29.99</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/product-6.png" alt="burger intermediun" />
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Beef hamburger</h3>
+            <div class="price">$29.99</div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+      <div class="image">
+        <img src="images/about-img.png" alt="about burger" />
+      </div>
+      <div class="content">
+        <h3 class="title">Step into burger haven</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
+          minus nisi incidunt exercitationem expedita! Itaque accusantium
+          repellat natus dolorum quod harum atque corporis quaerat similique
+          fuga. Velit ea aut iste.
+        </p>
+        <div class="icons">
+          <h3><i class="fas fa-check"></i> best price</h3>
+          <h3><i class="fas fa-check"></i> best service</h3>
+          <h3><i class="fas fa-check"></i> fresh ingredient</h3>
+          <h3><i class="fas fa-check"></i> backed buns</h3>
+          <h3><i class="fas fa-check"></i> natural cheese</h3>
+          <h3><i class="fas fa-check"></i> veg & non-veg</h3>
+        </div>
+        <a href="" class="btn">Read more</a>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- reviews section starts -->
+
+    <section class="reviews" id="reviews">
+      <div class="heading">
+        <img src="images/title-img.png" alt="title burger" />
+        <h3>testimial</h3>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="images/pic-1.png" alt="first user" />
+          <h3>Ana Rouse</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis,
+            expedita dignissimos ad suscipit nemo placeat maxime nihil nostrum,
+            natus ipsa magni atque voluptatum dolores aspernatur ipsam neque
+            architecto exercitationem rem.
+          </p>
+          <div class="stars-list">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pic-2.png" alt="first user" />
+          <h3>Jon deo</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis,
+            expedita dignissimos ad suscipit nemo placeat maxime nihil nostrum,
+            natus ipsa magni atque voluptatum dolores aspernatur ipsam neque
+            architecto exercitationem rem.
+          </p>
+          <div class="stars-list">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="images/pic-3.png" alt="first user" />
+          <h3>Margaret Love Craf</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis,
+            expedita dignissimos ad suscipit nemo placeat maxime nihil nostrum,
+            natus ipsa magni atque voluptatum dolores aspernatur ipsam neque
+            architecto exercitationem rem.
+          </p>
+          <div class="stars-list">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- reviews section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contacts">
+      <div class="heading">
+        <img src="images/title-img.png" alt="title burger" />
+        <h3>Contact us</h3>
+      </div>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.305511838647!2d-68.12894198353524!3d-16.510666945381182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2062481ac2cd%3A0x824291bff9304731!2sPlaza%20Abaroa!5e0!3m2!1sen!2sbo!4v1642381400405!5m2!1sen!2sbo"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <div class="form">
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-map"></i>
+              <h3>Address:</h3>
+              <p>Plaza avaroa - 1000</p>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-envelope"></i>
+              <h3>Email:</h3>
+              <p>contact@burgerkai.com</p>
+              <p>info@burgerkai.com</p>
+            </div>
+
+            <div class="icons">
+              <i class="fas fa-phone"></i>
+              <h3>Phone:</h3>
+              <p>+591 7654321</p>
+              <p>+591 7644444</p>
+            </div>
+          </div>
+          <form action="">
+            <input type="text" placeholder="Full name" class="box" />
+            <input type="email" placeholder="Email" class="box" />
+            <input type="number" placeholder="phone" class="box" />
+            <textarea
+              name="textarea"
+              placeholder="message"
+              class="box"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="Send message" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blogs section starts -->
+    <section class="blogs" id="blogs">
+      <div class="heading">
+        <img src="images/title-img.png" alt="title burger" />
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-1.jpg" alt="blog basic burger" />
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+              <a href="#"> <i class="fas fa-user"></i> by Ana </a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>blog title goes here.</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+              accusantium. Voluptatum eveniet quia laudantium perspiciatis, hic,
+              obcaecati quam pariatur animi necessitatibus magnam itaque!
+              Quibusdam in facilis est quidem ut ratione.
+            </p>
+            <a href="#" class="btn"> Read more </a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-2.jpg" alt="blog basic burger" />
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+              <a href="#"> <i class="fas fa-user"></i> by Ana </a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>blog title goes here.</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+              accusantium. Voluptatum eveniet quia laudantium perspiciatis, hic,
+              obcaecati quam pariatur animi necessitatibus magnam itaque!
+              Quibusdam in facilis est quidem ut ratione.
+            </p>
+            <a href="#" class="btn"> Read more </a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/blog-3.jpg" alt="blog basic burger" />
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2022 </a>
+              <a href="#"> <i class="fas fa-user"></i> by Ana </a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>blog title goes here.</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem,
+              accusantium. Voluptatum eveniet quia laudantium perspiciatis, hic,
+              obcaecati quam pariatur animi necessitatibus magnam itaque!
+              Quibusdam in facilis est quidem ut ratione.
+            </p>
+            <a href="#" class="btn"> Read more </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blogs section ends -->
+
+    <!-- footer sections starts -->
+    <section class="footer">
+      <div class="links">
+        <a href="#home" class="btn">Home</a>
+        <a href="#menu" class="btn">Menu</a>
+        <a href="#about" class="btn">About</a>
+        <a href="#reviews" class="btn">Reviews</a>
+        <a href="#contacts" class="btn">Contacts</a>
+        <a href="#blogs" class="btn">Blogs</a>
+      </div>
+
+      <p class="credit">
+        created by <span>kai web designer</span> | all rights reserved!
+      </p>
+    </section>
+
+    <!-- footer sections ends -->
+
+    <!-- Custom script file -->
+    <script src="scripts/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
